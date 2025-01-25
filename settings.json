@@ -55,7 +55,9 @@
                 "scope": [
                     "keyword.control.flow.python",
                     "keyword.control.flow.statements.python",
-                    "keyword.operator.logical.python"
+                    "keyword.operator.logical.python",
+                    "keyword.control.flow.match.python",
+                    "keyword.control.flow.case.python"
                 ],
                 "settings": {
                     "foreground": "#FF7788",
