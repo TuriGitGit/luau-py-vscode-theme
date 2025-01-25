@@ -52,7 +52,11 @@
                 "settings": { "foreground": "#FF88FF" }
             },
             {
-                "scope": ["keyword.control.flow.python", "keyword.control.flow.statements.python"],
+                "scope": [
+                    "keyword.control.flow.python",
+                    "keyword.control.flow.statements.python",
+                    "keyword.operator.logical.python"
+                ],
                 "settings": {
                     "foreground": "#FF7788",
                     "fontStyle": "bold"
