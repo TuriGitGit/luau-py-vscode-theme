@@ -1,0 +1,98 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.scrollback": 100000,
+    "python.createEnvironment.trigger": "off",
+    "terminal.integrated.persistentSessionScrollback": 1000,
+    "diffEditor.wordWrap": "on",
+    "editor.minimap.scale": 3,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10000,
+    "workbench.list.fastScrollSensitivity": 32,
+    "workbench.list.smoothScrolling": true,
+    "workbench.colorCustomizations": {
+
+        "activityBar.background": "#080911",
+        "breadcrumb.background": "default",
+        "commandCenter.background": "#080911",
+        "editor.background": "#111111",
+        "editorLineNumber.activeForeground": "#AABBFF",
+        "editorLineNumber.foreground": "#64729D",
+        "editorCursor.foreground": "#AABBFF",
+        "sideBar.background": "#080911"
+
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Default Dark Modern]": {
+            "rules": {
+            }
+        }
+    },
+    "editor.formatOnPaste": true,
+    "editor.fontSize": 13.4,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "variable.parameter.function.language.special.self.python",
+                "settings": { "foreground": "#55A5FF" }
+            },
+            {
+                "scope": "variable.parameter.function.language.random.python", 
+                "settings": { "foreground": "#FF0000" }
+            },
+            {
+                "scope": "string.quoted.docstring.multi.python",
+                "settings": { "foreground": "#FFAAAA" }
+            },
+            {
+                "scope": "comment",
+                "settings": { "foreground": "#FF88FF" }
+            },
+            {
+                "scope": ["keyword.control.flow.python", "keyword.control.flow.statements.python"],
+                "settings": {
+                    "foreground": "#FF7788",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant.language.python",
+                "settings": {
+                    "foreground": "#EECC22",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "string.quoted.single.python, string.quoted.double.python",
+                "settings": { "foreground": "#9FCF9F" }
+            },
+            {
+                "scope": "constant.numeric.float.python, constant.numeric.dec.python, constant.numeric.integer.python",
+                "settings": { "foreground": "#EECF22" }
+            }
+        ],
+        "[*Light*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#000"
+                    }
+                }
+            ]
+        },
+        "[*Dark*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#fff"
+                    }
+                }
+            ]
+        }
+    }
+}
