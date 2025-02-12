@@ -4,60 +4,84 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.scrollback": 100000,
-    "python.createEnvironment.trigger": "off",
     "terminal.integrated.persistentSessionScrollback": 1000,
     "diffEditor.wordWrap": "on",
     "editor.minimap.scale": 3,
     "editor.minimap.enabled": false,
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 10000,
     "workbench.list.fastScrollSensitivity": 32,
     "workbench.list.smoothScrolling": true,
     "workbench.colorCustomizations": {
 
-        "activityBar.background": "#080911",
+        "activityBar.background": "#04040E",
+        "activityBar.foreground": "#99BBFF",
         "breadcrumb.background": "default",
-        "commandCenter.background": "#080911",
-        "editor.background": "#111111",
-        "editorLineNumber.activeForeground": "#AABBFF",
-        "editorLineNumber.foreground": "#64729D",
-        "editorCursor.foreground": "#AABBFF",
-        "sideBar.background": "#080911"
-
-    },
-    "editor.semanticTokenColorCustomizations": {
-        "[Default Dark Modern]": {
-            "rules": {
-            }
-        }
+        "commandCenter.background": "#04040E",
+        "editor.background": "#04040E",
+        "editorLineNumber.activeForeground": "#99BBFF",
+        "editorLineNumber.foreground": "#7585AF",
+        "editorCursor.foreground": "#99BBFF",
+        "sideBar.background": "#04040E",
+        "foreground": "#99BBFF",
+        "icon.foreground": "#99BBFF",
+        "list.activeSelectionBackground": "#1B3070",
+        "editorHoverWidget.background": "#04040E",
+        "editor.selectionBackground": "#1B3070",
+        "titleBar.activeBackground": "#04040E",
+        "commandCenter.activeBackground": "#121222",
+        "titleBar.inactiveBackground": "#121222",
+        "titleBar.activeForeground": "#99BBFF",
+        "menubar.selectionBackground": "#1B3070",
+        "toolbar.activeBackground": "#1B3070",
+        "toolbar.hoverBackground": "#1B3070",
+        "tab.activeBackground": "#121222",
+        "tab.inactiveBackground": "#04040E",
+        "tab.activeBorder": "#04040E",
+        "tab.activeBorderTop": "#99BBFF",
+        "tab.border": "#303050",
+        "tab.dragAndDropBorder": "#99BBFF",
+        "tab.hoverBackground": "#121222",
+        "tab.activeForeground": "#99BBFF",
+        "tab.inactiveForeground": "#99BBFF",
+        "menu.background": "#04040E",
+        "editorGroupHeader.tabsBackground": "#04040E"
+        
     },
     "editor.formatOnPaste": true,
-    "editor.fontSize": 13.4,
+    "editor.fontSize": 14,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
+                "scope": "storage.modifier.pointer",
+                "settings": {
+                    "foreground": "#FF5733" // Change to your preferred color
+                }
+            },
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#99BBFF"
+                }
+            },
+            {
                 "scope": "variable.parameter.function.language.special.self.python",
-                "settings": { "foreground": "#55A5FF" }
+                "settings": { "foreground": "#597BCB" }
             },
             {
-                "scope": "variable.parameter.function.language.random.python", 
-                "settings": { "foreground": "#FF0000" }
+                "scope": "variable.parameter.function.language.random", 
+                "settings": { "foreground": "#fa0000" }
             },
             {
-                "scope": "string.quoted.docstring.multi.python",
+                "scope": "string.quoted.docstring.multi",
                 "settings": { "foreground": "#FFAAAA" }
             },
             {
                 "scope": "comment",
-                "settings": { "foreground": "#FF88FF" }
+                "settings": { "foreground": "#E599E5" }
             },
             {
                 "scope": [
-                    "keyword.control.flow.python",
-                    "keyword.control.flow.statements.python",
-                    "keyword.operator.logical.python",
-                    "keyword.control.flow.match.python",
-                    "keyword.control.flow.case.python"
+                    "keyword.control",
                 ],
                 "settings": {
                     "foreground": "#FF7788",
@@ -65,19 +89,12 @@
                 }
             },
             {
-                "scope": "constant.language.python",
-                "settings": {
-                    "foreground": "#EECC22",
-                    "fontStyle": "bold"
-                }
+                "scope": "string.quoted.single, string.quoted.double",
+                "settings": { "foreground": "#AFDF9F" }
             },
             {
-                "scope": "string.quoted.single.python, string.quoted.double.python",
-                "settings": { "foreground": "#9FCF9F" }
-            },
-            {
-                "scope": "constant.numeric.float.python, constant.numeric.dec.python, constant.numeric.integer.python",
-                "settings": { "foreground": "#EECF22" }
+                "scope": "constant.language, constant.numeric.float, constant.numeric.dec, constant.numeric.integer",
+                "settings": { "foreground": "#AFDF9F", "fontStyle": "bold" }
             }
         ],
         "[*Light*]": {
@@ -100,5 +117,8 @@
                 }
             ]
         }
-    }
+    },
+    "interactiveWindow.promptToSaveOnClose": true,
+    "files.autoSaveDelay": 10000,
+    "editor.semanticHighlighting.enabled": true,
 }
