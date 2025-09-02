@@ -51,10 +51,6 @@
                 "settings": { "foreground": "#5070C0" }
             },
             {
-                "scope": "variable.parameter.function.language.random", 
-                "settings": { "foreground": "#fa0000" }
-            },
-            {
                 "scope": "string.quoted.docstring.multi",
                 "settings": { "foreground": "#FFAAAA" }
             },
