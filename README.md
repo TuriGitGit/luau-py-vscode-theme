@@ -1,5 +1,5 @@
 # luau-py vscode theme
 
-a simple vscode theme that makes python look like standard luau (with some modifications), personally i love the contrast and find it much easier to read
+My vscode theme that makes python look like standard luau (with some modifications), personally i love the contrast and find it much easier to read
 #
-![image](https://github.com/user-attachments/assets/5e55c3ee-774c-4c43-bac5-ea35a76e3996)
+<img width="779" height="1338" alt="image" src="https://github.com/user-attachments/assets/3bdf2bcd-b72f-41ab-a36a-190073676552" />
